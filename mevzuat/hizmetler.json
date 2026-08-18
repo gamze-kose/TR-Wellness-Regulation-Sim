@@ -1,0 +1,221 @@
+{
+ "kaynak": "Esenlik Hizmetleri Yönetmeliği Madde 4/1-c",
+ "not": "Madde 4/1-c yirmi dört hizmet türünü sayıp “ile benzer nitelikteki hizmetleri” ifadesiyle listeyi açık bırakmaktadır. Açık uç bu dosyada modellenmemiştir.",
+ "hizmetler": [
+  {
+   "kod": "H01",
+   "ad": "Balneoterapi",
+   "ad_en": "Balneotherapy"
+  },
+  {
+   "kod": "H02",
+   "ad": "Beslenme hizmetleri",
+   "ad_en": "Nutrition services"
+  },
+  {
+   "kod": "H03",
+   "ad": "Dil ve konuşma terapisi hizmetleri",
+   "ad_en": "Speech and language therapy services"
+  },
+  {
+   "kod": "H04",
+   "ad": "Egzersiz ve fiziksel aktivite hizmetleri",
+   "ad_en": "Exercise and physical activity services"
+  },
+  {
+   "kod": "H05",
+   "ad": "Ergoterapi hizmetleri",
+   "ad_en": "Occupational therapy services"
+  },
+  {
+   "kod": "H06",
+   "ad": "Fizyoterapi hizmetleri",
+   "ad_en": "Physiotherapy services"
+  },
+  {
+   "kod": "H07",
+   "ad": "Geleneksel ve Tamamlayıcı Tıp Uygulamaları (GETAT)",
+   "ad_en": "Traditional and Complementary Medicine practices"
+  },
+  {
+   "kod": "H08",
+   "ad": "Güneş terapisi (helioterapi) hizmetleri",
+   "ad_en": "Heliotherapy services"
+  },
+  {
+   "kod": "H09",
+   "ad": "Hidroterapi uygulamaları",
+   "ad_en": "Hydrotherapy applications"
+  },
+  {
+   "kod": "H10",
+   "ad": "Hiperbarik ve hipobarik oksijen uygulamaları",
+   "ad_en": "Hyperbaric and hypobaric oxygen applications"
+  },
+  {
+   "kod": "H11",
+   "ad": "Manuel uygulamalar ve yumuşak doku teknikleri",
+   "ad_en": "Manual applications and soft tissue techniques"
+  },
+  {
+   "kod": "H12",
+   "ad": "Meditasyon",
+   "ad_en": "Meditation"
+  },
+  {
+   "kod": "H13",
+   "ad": "Peloidoterapi",
+   "ad_en": "Peloidotherapy"
+  },
+  {
+   "kod": "H14",
+   "ad": "Podoloji hizmetleri",
+   "ad_en": "Podiatry services"
+  },
+  {
+   "kod": "H15",
+   "ad": "Psikolojik destek hizmetleri",
+   "ad_en": "Psychological support services"
+  },
+  {
+   "kod": "H16",
+   "ad": "Rehabilitasyon hizmetleri",
+   "ad_en": "Rehabilitation services"
+  },
+  {
+   "kod": "H17",
+   "ad": "Sanat terapileri",
+   "ad_en": "Art therapies"
+  },
+  {
+   "kod": "H18",
+   "ad": "Sauna ve buhar odası hizmetleri",
+   "ad_en": "Sauna and steam room services"
+  },
+  {
+   "kod": "H19",
+   "ad": "Talassoterapi",
+   "ad_en": "Thalassotherapy"
+  },
+  {
+   "kod": "H20",
+   "ad": "Teknoterapi hizmetleri",
+   "ad_en": "Technotherapy services"
+  },
+  {
+   "kod": "H21",
+   "ad": "Temel sağlık ve yaşam tarzı değerlendirmesi",
+   "ad_en": "Basic health and lifestyle assessment"
+  },
+  {
+   "kod": "H22",
+   "ad": "Temiz hava ve doğa temelli terapiler",
+   "ad_en": "Fresh air and nature-based therapies"
+  },
+  {
+   "kod": "H23",
+   "ad": "Tuz terapisi (haloterapi) hizmetleri",
+   "ad_en": "Salt therapy (halotherapy) services"
+  },
+  {
+   "kod": "H24",
+   "ad": "Uyku sağlığı hizmetleri",
+   "ad_en": "Sleep health services"
+  }
+ ],
+ "arketipler": {
+  "termal_balneoloji": {
+   "ad": "Termal ve balneoloji ağırlıklı",
+   "cekirdek": [
+    "H01",
+    "H09",
+    "H13",
+    "H18",
+    "H19"
+   ],
+   "olasi": [
+    "H06",
+    "H11",
+    "H21",
+    "H22"
+   ],
+   "ad_en": "Thermal and balneology oriented"
+  },
+  "getat": {
+   "ad": "GETAT ağırlıklı",
+   "cekirdek": [
+    "H07",
+    "H11",
+    "H12"
+   ],
+   "olasi": [
+    "H15",
+    "H17",
+    "H21",
+    "H23"
+   ],
+   "ad_en": "Traditional medicine oriented"
+  },
+  "egzersiz": {
+   "ad": "Egzersiz ve sportif",
+   "cekirdek": [
+    "H04",
+    "H06",
+    "H21"
+   ],
+   "olasi": [
+    "H02",
+    "H05",
+    "H11",
+    "H18"
+   ],
+   "ad_en": "Exercise and sports"
+  },
+  "psikososyal": {
+   "ad": "Psikososyal destek",
+   "cekirdek": [
+    "H12",
+    "H15",
+    "H17"
+   ],
+   "olasi": [
+    "H03",
+    "H22",
+    "H24"
+   ],
+   "ad_en": "Psychosocial support"
+  },
+  "uyku_beslenme": {
+   "ad": "Uyku ve beslenme",
+   "cekirdek": [
+    "H02",
+    "H21",
+    "H24"
+   ],
+   "olasi": [
+    "H04",
+    "H12",
+    "H23"
+   ],
+   "ad_en": "Sleep and nutrition"
+  },
+  "rehabilitasyon_destek": {
+   "ad": "Rehabilitasyon destekli",
+   "cekirdek": [
+    "H05",
+    "H06",
+    "H16"
+   ],
+   "olasi": [
+    "H03",
+    "H11",
+    "H14"
+   ],
+   "ad_en": "Rehabilitation supported"
+  }
+ },
+ "arketip_perturbasyon": {
+  "olasi_ekleme_olasiligi": 0.45,
+  "cekirdek_dusurme_olasiligi": 0.08
+ }
+}

@@ -1,0 +1,354 @@
+{
+ "kaynak": "Esenlik Hizmetleri Yönetmeliği EK-4 Esenlik Merkezi/Ünitesi Denetim Sorgu ve İdari Yaptırım Formu",
+ "resmi_gazete": {
+  "tarih": "2026-07-04",
+  "sayi": 33300
+ },
+ "not": "Formda 22 numara ayrılmış olmasına karşın 12 numaralı soru bulunmamaktadır. Yaptırım metinleri özetlenmiştir; bağlayıcı metin EK-4'tür.",
+ "aciklamalar": {
+  "1": "Esenlik Hizmetleri Yönetmeliği hükümleri kapsamında değerlendirilir.",
+  "2": "(**) işaretli sorular olağan denetimde sorgulanmaz.",
+  "3": "Tanıtım ve bilgilendirme denetimi 33075 sayılı Yönetmeliğe göre yürütülür.",
+  "4": "Maktu idarî para cezaları 3359 sayılı Kanunun ek 11 inci maddesi uyarınca 2026 yeniden değerleme oranıyla belirlenmiştir.",
+  "5": "Hüküm bulunmayan hâllerde 32372 sayılı Özel Sağlık Tesislerinin Denetimi Hakkında Yönetmelik uygulanır."
+ },
+ "kurallar": [
+  {
+   "soru_no": 1,
+   "kategori": "bina_ve_hizmet_birimi",
+   "soru": "Merkezin/ünitenin ruhsat belgesi var mı?",
+   "dayanak": "10/8-a",
+   "olagan_denetimde_sorulur": false,
+   "alan": "ruhsat_belgesi",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Valilikçe ruhsatsız sunulan hizmet faaliyetten men edilir, idarî para cezası verilir ve Cumhuriyet Başsavcılığına suç duyurusunda bulunulur.",
+    "2": "Valilikçe ruhsatsız sunulan hizmet faaliyetten men edilir, idarî para cezası verilir ve Cumhuriyet Başsavcılığına suç duyurusunda bulunulur.",
+    "3": "Merkezin/ünitenin faaliyeti on gün süreyle durdurulur."
+   },
+   "soru_en": "Does the centre/unit hold an operating licence?"
+  },
+  {
+   "soru_no": 2,
+   "kategori": "bina_ve_hizmet_birimi",
+   "soru": "Merkez ve ünite dışında esenlik hizmeti sunuluyor mu?",
+   "dayanak": "10/8-b",
+   "olagan_denetimde_sorulur": false,
+   "alan": "merkez_disi_hizmet",
+   "beklenen": false,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Faaliyet durdurulur, idarî para cezası verilir ve süre tanınır.",
+    "2": "Faaliyet durdurulur, idarî para cezası verilir ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Are wellness services provided outside the centre or unit?"
+  },
+  {
+   "soru_no": 3,
+   "kategori": "bina_ve_hizmet_birimi",
+   "soru": "Merkezde/ünitede nekahat dönemindeki hastalara esenlik hizmeti sunuluyor mu?",
+   "dayanak": "10/8-d",
+   "olagan_denetimde_sorulur": false,
+   "alan": "nekahet_hastasi_kabulu",
+   "beklenen": false,
+   "duzey": "eslesme",
+   "yaptirim": {
+    "1": "Valilikçe ruhsatsız sunulan hizmet faaliyetten men edilir, idarî para cezası verilir ve Cumhuriyet Başsavcılığına suç duyurusunda bulunulur.",
+    "2": "Valilikçe ruhsatsız sunulan hizmet faaliyetten men edilir, idarî para cezası verilir ve Cumhuriyet Başsavcılığına suç duyurusunda bulunulur.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Are wellness services provided to patients in the convalescence period?"
+  },
+  {
+   "soru_no": 4,
+   "kategori": "bina_ve_hizmet_birimi",
+   "soru": "Bakanlıktan izin alınmamış tıbbi cihaz bulunduruluyor mu?",
+   "dayanak": "10/2",
+   "olagan_denetimde_sorulur": true,
+   "alan": "izinsiz_tibbi_cihaz",
+   "beklenen": false,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "İdarî para cezası verilir ve on beş gün süre tanınır.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Are medical devices kept without Ministry authorisation?"
+  },
+  {
+   "soru_no": 5,
+   "kategori": "bina_ve_hizmet_birimi",
+   "soru": "Hizmetin niteliğine uygun mekân sağlanmış mı?",
+   "dayanak": "10/4",
+   "olagan_denetimde_sorulur": true,
+   "alan": "uygun_mekan",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "İdarî para cezası verilir ve on beş gün süre tanınır.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Is the physical space appropriate to the nature of the service?"
+  },
+  {
+   "soru_no": 6,
+   "kategori": "bina_ve_hizmet_birimi",
+   "soru": "Acil müdahale odası bulunuyor mu? (Kuruluş bünyesinde bulunması hâlinde şart sağlanmış sayılır.)",
+   "dayanak": "10/3",
+   "olagan_denetimde_sorulur": true,
+   "alan": "acil_mudahale_odasi",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "İdarî para cezası verilir ve on beş gün süre tanınır.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Is an emergency intervention room available? (Deemed satisfied if the host establishment has one.)"
+  },
+  {
+   "soru_no": 7,
+   "kategori": "bina_ve_hizmet_birimi",
+   "soru": "Acil sevk için özel, kamu veya üniversite hastanesi ya da 3000 m² ve 10 uzman tabip kadrolu tıp merkezi ile iş birliği yapılmış ve müdürlüğe bildirilmiş mi?",
+   "dayanak": "13/2",
+   "olagan_denetimde_sorulur": true,
+   "alan": "is_birligi_protokolu",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "İdarî para cezası verilir ve on beş gün süre tanınır.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Has a referral cooperation agreement been made with a private, public or university hospital, or a medical centre of 3000 m2 with 10 specialist physicians, and notified to the directorate?"
+  },
+  {
+   "soru_no": 8,
+   "kategori": "bina_ve_hizmet_birimi",
+   "soru": "Merkezde/ünitede herhangi bir ürün satışı yapılıyor mu?",
+   "dayanak": "10/8-f",
+   "olagan_denetimde_sorulur": false,
+   "alan": "urun_satisi",
+   "beklenen": false,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "İdarî para cezası verilir ve on beş gün süre tanınır.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Is any product sold within the centre or unit?"
+  },
+  {
+   "soru_no": 9,
+   "kategori": "bina_ve_hizmet_birimi",
+   "soru": "Kayıtların güvenli saklanacağı fizikî veya elektronik arşiv alanı oluşturulmuş mu?",
+   "dayanak": "14/1",
+   "olagan_denetimde_sorulur": true,
+   "alan": "arsiv_alani",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "İdarî para cezası verilir ve on beş gün süre tanınır.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Has a secure physical or electronic archive area been established for records?"
+  },
+  {
+   "soru_no": 10,
+   "kategori": "personel",
+   "soru": "Tam zamanlı tabip veya uzman tabiplerden birisi mesul müdür olarak görevlendirildi mi?",
+   "dayanak": "11/2",
+   "olagan_denetimde_sorulur": true,
+   "alan": "mesul_mudur_atandi",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Eksiklik giderilinceye kadar faaliyet durdurulur; altı ay içinde giderilmezse ruhsat belgesi iptal edilir.",
+    "2": "Eksiklik giderilinceye kadar faaliyet durdurulur; altı ay içinde giderilmezse ruhsat belgesi iptal edilir.",
+    "3": "Eksiklik giderilinceye kadar faaliyet durdurulur; altı ay içinde giderilmezse ruhsat belgesi iptal edilir."
+   },
+   "soru_en": "Has a full-time physician or specialist physician been appointed as responsible manager?"
+  },
+  {
+   "soru_no": 11,
+   "kategori": "personel",
+   "soru": "Mesul müdür 11/7'de belirlenen görev, yetki ve sorumluluklarını yerine getiriyor mu?",
+   "dayanak": "11/7",
+   "olagan_denetimde_sorulur": false,
+   "alan": "mesul_mudur_gorevleri",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Mesul müdür uyarılır ve otuz gün süre verilir.",
+    "2": "Mesul müdür uyarılır ve otuz gün süre verilir.",
+    "3": "Merkezin/ünitenin mesul müdürü değiştirilir; üç yıl mesul müdürlük yapamaz."
+   },
+   "soru_en": "Does the responsible manager fulfil the duties, powers and responsibilities set out in Article 11(7)?"
+  },
+  {
+   "soru_no": 13,
+   "kategori": "personel",
+   "soru": "Adına personel çalışma belgesi düzenlenmeyen sağlık meslek mensubu görev yapıyor mu?",
+   "dayanak": "10/8-c",
+   "olagan_denetimde_sorulur": true,
+   "alan": "personel_calisma_belgesi_tam",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "İdarî para cezası verilir ve otuz gün süre tanınır.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Do health professionals without an issued Personnel Work Certificate serve in the centre or unit?"
+  },
+  {
+   "soru_no": 14,
+   "kategori": "personel",
+   "soru": "Merkez veya ünite bünyesinde görevli olmayan kişilerce esenlik hizmeti sunuluyor mu?",
+   "dayanak": "10/8-ç",
+   "olagan_denetimde_sorulur": true,
+   "alan": "yetkisiz_kisi_hizmeti",
+   "beklenen": false,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "İdarî para cezası verilir ve otuz gün süre tanınır.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti on gün süreyle durdurulur."
+   },
+   "soru_en": "Are wellness services provided by persons not employed by the centre or unit?"
+  },
+  {
+   "soru_no": 15,
+   "kategori": "personel",
+   "soru": "Merkezde/ünitede sigortasız personel çalıştırılıyor mu?",
+   "dayanak": "5510/59-7",
+   "olagan_denetimde_sorulur": false,
+   "alan": "sigortasiz_personel",
+   "beklenen": false,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Sosyal Güvenlik Kurumu Başkanlığına en geç bir ay içinde bildirilir.",
+    "2": "Sosyal Güvenlik Kurumu Başkanlığına en geç bir ay içinde bildirilir.",
+    "3": "Sosyal Güvenlik Kurumu Başkanlığına en geç bir ay içinde bildirilir."
+   },
+   "soru_en": "Are uninsured personnel employed in the centre or unit?"
+  },
+  {
+   "soru_no": 16,
+   "kategori": "personel",
+   "soru": "Tüm personel onaylı, fotoğraflı ve karekodlu kimlik kartını görünür şekilde taşıyor mu?",
+   "dayanak": "15/1",
+   "olagan_denetimde_sorulur": true,
+   "alan": "kimlik_karti",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "İdarî para cezası verilir ve otuz gün süre tanınır.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti beş gün süreyle durdurulur."
+   },
+   "soru_en": "Do all personnel visibly wear the approved photographic identity card bearing a QR code?"
+  },
+  {
+   "soru_no": 17,
+   "kategori": "kayit_ve_bildirim",
+   "soru": "Kişisel veriler KVKK ve 3359 sayılı Kanunun ek 19 uncu maddesine uygun işlenerek merkezî sağlık veri sistemine aktarılıyor mu?",
+   "dayanak": "14/2",
+   "olagan_denetimde_sorulur": false,
+   "alan": "merkezi_veri_aktarimi",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Brüt hizmet gelirinin yüzde ikisi oranında idarî para cezası verilir.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti üç gün süreyle durdurulur."
+   },
+   "soru_en": "Are personal data processed under the Personal Data Protection Law and transferred to the central health data system?"
+  },
+  {
+   "soru_no": 18,
+   "kategori": "kayit_ve_bildirim",
+   "soru": "Bakanlığın kayıt ve bildirim sistemine istenilen bilgi ve belgeler gönderiliyor mu?",
+   "dayanak": "14/2",
+   "olagan_denetimde_sorulur": false,
+   "alan": "bakanlik_bildirimi",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Brüt hizmet gelirinin yüzde ikisi oranında idarî para cezası verilir.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti üç gün süreyle durdurulur."
+   },
+   "soru_en": "Are the requested information and documents submitted to the Ministry's registration and notification system?"
+  },
+  {
+   "soru_no": 19,
+   "kategori": "kayit_ve_bildirim",
+   "soru": "Sunulan tüm hizmetler kayıt altına alınıyor ve muhafaza ediliyor mu?",
+   "dayanak": "14/3",
+   "olagan_denetimde_sorulur": true,
+   "alan": "hizmet_kayitlari",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Brüt hizmet gelirinin yüzde ikisi oranında idarî para cezası verilir.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti üç gün süreyle durdurulur."
+   },
+   "soru_en": "Are all services provided recorded and retained?"
+  },
+  {
+   "soru_no": 20,
+   "kategori": "kayit_ve_bildirim",
+   "soru": "5070 sayılı Kanuna uygun e-imzalı kayıtların yedeklemesi ve arşivlemesi yapılıyor mu?",
+   "dayanak": "14/4",
+   "olagan_denetimde_sorulur": false,
+   "alan": "eimza_arsiv",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Brüt hizmet gelirinin yüzde ikisi oranında idarî para cezası verilir.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti üç gün süreyle durdurulur."
+   },
+   "soru_en": "Are electronically signed records backed up and archived under Law No. 5070?"
+  },
+  {
+   "soru_no": 21,
+   "kategori": "kayit_ve_bildirim",
+   "soru": "Kişisel Sağlık Verileri Hakkında Yönetmelik hükümleri uygulanıyor mu?",
+   "dayanak": "14/4",
+   "olagan_denetimde_sorulur": false,
+   "alan": "ksv_yonetmeligi_uyumu",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Brüt hizmet gelirinin yüzde ikisi oranında idarî para cezası verilir.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti üç gün süreyle durdurulur."
+   },
+   "soru_en": "Are the provisions of the Regulation on Personal Health Data applied?"
+  },
+  {
+   "soru_no": 22,
+   "kategori": "kayit_ve_bildirim",
+   "soru": "Denetimler sırasında istenen tüm kayıt ve belgeler ibraz ediliyor mu?",
+   "dayanak": "18/3",
+   "olagan_denetimde_sorulur": true,
+   "alan": "denetimde_belge_ibrazi",
+   "beklenen": true,
+   "duzey": "merkez",
+   "yaptirim": {
+    "1": "Brüt hizmet gelirinin yüzde ikisi oranında idarî para cezası verilir.",
+    "2": "İdarî para cezası bir kat artırılarak uygulanır ve süre tanınır.",
+    "3": "Merkezin/ünitenin faaliyeti üç gün süreyle durdurulur."
+   },
+   "soru_en": "Are all requested records and documents presented during inspections?"
+  }
+ ],
+ "ceviri_notu": "İngilizce metinler resmî olmayan çalışma çevirisidir. Bağlayıcı metin Resmî Gazete'dir."
+}
