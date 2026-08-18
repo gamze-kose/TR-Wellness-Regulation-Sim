@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "Bu yazılımı kullanırsanız aşağıdaki bildiriye atıf verin."
+title: TR-Wellness-Regulation-Sim
+abstract: >-
+  Esenlik Hizmetleri Yönetmeliği ve sağlık turizmi üzerine, mevzuat
+  belirsizliğini ölçülebilir kılan yapay zekâ destekli bir düzenleyici etki
+  analizi aracı. Kural tabanlı çıkarım, veriden öğrenen ayrık Bayes ağı ve
+  etmen temelli simülasyonu üç değerli bir uygunluk mantığında birleştirir.
+keywords:
+  - regulatory impact analysis
+  - agent-based simulation
+  - Bayesian network
+  - rule-based inference
+  - three-valued logic
+  - health tourism
+authors:
+  - family-names: Köse
+    given-names: Gamze
+  - family-names: Köse
+    given-names: Utku
+    affiliation: Süleyman Demirel Üniversitesi
+license: MIT
+type: software
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Measuring Uncertainty: An Artificial Intelligence Assisted Regulatory
+    Impact Analysis of the Wellness Services Regulation and Health Tourism
+  authors:
+    - family-names: Köse
+      given-names: Gamze
+    - family-names: Köse
+      given-names: Utku
+  collection-title: >-
+    INNOVAHEALTH 2026 - 3rd International Congress on Innovative Approaches in
+    Health Sciences
+  conference:
+    name: >-
+      INNOVAHEALTH 2026 - 3rd International Congress on Innovative Approaches in
+      Health Sciences
+    city: Kyrenia
+    country: CY
+    date-start: "2026-09-02"
+    date-end: "2026-09-05"
+  year: 2026
