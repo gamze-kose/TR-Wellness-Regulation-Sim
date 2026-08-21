@@ -383,7 +383,7 @@ MIT — ayrıntı için [LICENSE](LICENSE).
 <h1 align="center" id="english">TR-Wellness-Regulation-Sim</h1>
 
 <p align="center">
-  <strong>Can regulatory uncertainty be measured?</strong><br>
+  <strong>Main question: "Can regulatory uncertainty be measured?"</strong><br>
   An artificial intelligence assisted regulatory impact analysis tool<br>
   for Turkey's Wellness Services Regulation and health tourism.
 </p>
