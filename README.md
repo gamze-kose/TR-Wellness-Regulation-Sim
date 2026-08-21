@@ -1,7 +1,7 @@
 <h1 align="center">TR-Wellness-Regulation-Sim</h1>
 
 <p align="center">
-  <strong>Mevzuat belirsizliği ölçülebilir mi?</strong><br>
+  <strong>Tenel soru: "Mevzuat belirsizliği ölçülebilir mi?"</strong><br>
   Esenlik Hizmetleri Yönetmeliği ve sağlık turizmi üzerine<br>
   yapay zekâ destekli bir düzenleyici etki analizi aracı.
 </p>
