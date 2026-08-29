@@ -1,0 +1,126 @@
+{
+ "aciklama": "Madde 17, esenlik merkez ve ünitelerinin uluslararası sağlık turizmi yetkisine ilişkin usul ve esasların Bakanlıkça belirleneceğini düzenler. Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik (26 Nisan 2025, RG 32882) yetki belgesi almayı zorunlu kılar; ancak sağlık tesisi tanımı esenlik merkezi ruhsatını kapsıyor mu ve hizmet kapsamı esenlik hizmetiyle nasıl bağdaşır, belirlenmemiştir. Senaryolar bu belirlemenin farklı biçimlerde yapılması ile denetim yoğunluğunu karşılaştırır.",
+ "ortak": {
+  "baslangic_yili": 2026,
+  "baslangic_merkez_sayisi": 60,
+  "yillik_basvuru_tabani": 16,
+  "yillik_ziyaretci": 6200,
+  "talep_buyume": 0.06,
+  "yurt_disi_payi": 0.24,
+  "yurt_disi_buyume": 0.09,
+  "doluluk_esigi": 0.3,
+  "arka_arkaya_zarar_yili": 2,
+  "belirsizlik_kabul_orani": 0.17,
+  "kayit_disi_egilimi": 0.22,
+  "yillik_denetim_kapasitesi": 30
+ },
+ "senaryolar": [
+  {
+   "kod": "S0",
+   "ad": "Belirsizlik sürüyor",
+   "ad_en": "Uncertainty persists",
+   "ozet": "Madde 17 kapsamındaki belirleme yapılmaz. Esenlik merkezinin yetki belgesi alıp alamayacağı açıklığa kavuşmadığı için merkezler yurt dışı ziyaretçiyi kabul etmekte tereddüt eder.",
+   "ozet_en": "No determination is made under Article 17. Because it remains unclear whether an esenlik centre can obtain an authorisation certificate, centres hesitate to accept visitors resident abroad.",
+   "madde17": "yok",
+   "turizm_kabul_orani": 0.92,
+   "denetim_orani": 0.35,
+   "unite_turizme_acik": true
+  },
+  {
+   "kod": "S1",
+   "ad": "İzin verici düzenleme",
+   "ad_en": "Permissive regulation",
+   "ozet": "Bakanlık 2028'de belirleme yapar ve esenlik merkez ile ünitelerini genel yetkilendirme düzenine bağlar. Her iki kuruluş türü de yurt dışı ziyaretçi kabul edebilir.",
+   "ozet_en": "In 2028 the Ministry makes the determination and brings both esenlik centres and units within the general authorisation framework. Both may accept visitors resident abroad.",
+   "madde17": "izin_verici",
+   "yururluk_yili": 2028,
+   "turizm_kabul_orani": 0.92,
+   "denetim_orani": 0.35,
+   "unite_turizme_acik": true
+  },
+  {
+   "kod": "S2",
+   "ad": "Kısıtlayıcı düzenleme",
+   "ad_en": "Restrictive regulation",
+   "ozet": "Bakanlık 2028'de belirleme yapar ancak yetkiyi yalnızca esenlik merkezlerine tanır, üniteleri kapsam dışında bırakır.",
+   "ozet_en": "In 2028 the Ministry makes the determination but grants the authorisation only to esenlik centres, leaving units outside its scope.",
+   "madde17": "kisitlayici",
+   "yururluk_yili": 2028,
+   "turizm_kabul_orani": 0.78,
+   "denetim_orani": 0.35,
+   "unite_turizme_acik": false
+  },
+  {
+   "kod": "S3",
+   "ad": "İzin verici ve yoğun denetim",
+   "ad_en": "Permissive with intensive inspection",
+   "ozet": "Belirleme kapsayıcı biçimde yapılır, buna karşılık denetim sıklığı iki katına yaklaşır.",
+   "ozet_en": "The determination is inclusive, but inspection frequency nearly doubles.",
+   "madde17": "izin_verici",
+   "yururluk_yili": 2028,
+   "turizm_kabul_orani": 0.92,
+   "denetim_orani": 0.68,
+   "unite_turizme_acik": true
+  },
+  {
+   "kod": "S4",
+   "ad": "Erken ve izin verici düzenleme",
+   "ad_en": "Early permissive regulation",
+   "ozet": "Bakanlık belirlemeyi 2026 sonunda yapar. Belirsizlik dönemi neredeyse hiç yaşanmaz.",
+   "ozet_en": "The Ministry makes the determination at the end of 2026. The period of uncertainty barely occurs.",
+   "madde17": "izin_verici",
+   "yururluk_yili": 2026,
+   "turizm_kabul_orani": 0.92,
+   "denetim_orani": 0.35,
+   "unite_turizme_acik": true
+  }
+ ],
+ "uyum_durumlari": {
+  "aciklama": "Merkezin denetim karşısındaki durumu üç kademede izlenir. Aşağıdaki olasılıklar merkezin zayıf noktası olan kurallar için geçerlidir; diğer kurallarda uyum neredeyse tamdır. Geçiş olasılıkları başlangıç değeridir, gözlemden öğrenilebilir.",
+  "durumlar": [
+   "iyi",
+   "orta",
+   "zayif"
+  ],
+  "kural_uyum_olasiligi": {
+   "iyi": 0.9,
+   "orta": 0.7,
+   "zayif": 0.45
+  },
+  "gecis_cezasiz": {
+   "iyi": [
+    0.9,
+    0.09,
+    0.01
+   ],
+   "orta": [
+    0.14,
+    0.76,
+    0.1
+   ],
+   "zayif": [
+    0.04,
+    0.22,
+    0.74
+   ]
+  },
+  "gecis_cezali": {
+   "iyi": [
+    0.94,
+    0.06,
+    0.0
+   ],
+   "orta": [
+    0.46,
+    0.5,
+    0.04
+   ],
+   "zayif": [
+    0.18,
+    0.52,
+    0.3
+   ]
+  },
+  "saglam_kural_uyumu": 0.998
+ }
+}

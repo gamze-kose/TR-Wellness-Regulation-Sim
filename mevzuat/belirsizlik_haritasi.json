@@ -1,0 +1,212 @@
+{
+ "aciklama": "Esenlik Hizmetleri Yönetmeliği metninin madde madde taranmasıyla çıkarılan belirsizlik kataloğu. Her kayıt, hükmün tek başına uygulanmasını mümkün kılmayan bir eksikliği gösterir. Sınıflandırma metne dayanır; yorum içermez.",
+ "turler": {
+  "ikincil_duzenleme_yok": {
+   "ad": "İkincil düzenlemeye bırakılmış, henüz yayımlanmamış",
+   "ad_en": "Deferred to secondary regulation, not yet issued"
+  },
+  "tanimsiz_kavram": {
+   "ad": "Yönetmelikte tanımı bulunmayan kavram",
+   "ad_en": "Concept used but not defined"
+  },
+  "olcutsuz_takdir": {
+   "ad": "Ölçüt verilmeden idareye bırakılmış takdir",
+   "ad_en": "Discretion left without criteria"
+  },
+  "acik_uclu_liste": {
+   "ad": "Açık uçlu sayma",
+   "ad_en": "Open-ended enumeration"
+  },
+  "denetimde_karsiligi_yok": {
+   "ad": "EK-4 denetim formunda karşılığı yok",
+   "ad_en": "No counterpart in the Annex 4 form"
+  },
+  "metin_ici_tutarsizlik": {
+   "ad": "Metin içi tutarsızlık",
+   "ad_en": "Internal inconsistency"
+  }
+ },
+ "etki_alanlari": {
+  "ruhsat": {
+   "tr": "Ruhsatlandırma",
+   "en": "Licensing"
+  },
+  "isletme": {
+   "tr": "İşletme",
+   "en": "Operation"
+  },
+  "denetim": {
+   "tr": "Denetim",
+   "en": "Inspection"
+  },
+  "turizm": {
+   "tr": "Sağlık turizmi",
+   "en": "Health tourism"
+  }
+ },
+ "kayitlar": [
+  {
+   "kod": "B01",
+   "dayanak": "17/1",
+   "tur": "ikincil_duzenleme_yok",
+   "etki": [
+    "turizm",
+    "isletme",
+    "denetim"
+   ],
+   "agirlik": 3,
+   "metin": "Madde 17, esenlik merkez ve ünitelerinin uluslararası sağlık turizmi yetkisine ilişkin usul ve esasların Bakanlıkça belirleneceğini düzenler. Uluslararası Sağlık Turizmi ve Turistin Sağlığı Hakkında Yönetmelik (26/4/2025, RG 32882) yetki belgesi almayı zorunlu kılar; ancak anılan yönetmeliğin 4 üncü maddesindeki sağlık tesisi tanımı sağlık tesisi ruhsatı şartına bağlıdır ve esenlik merkezi ruhsatının bu şartı karşılayıp karşılamadığı belirsizdir. Belirleme yapılmadığı sürece merkez, yurt dışında ikamet eden ziyaretçiye hizmet verirken yetkili olup olmadığını bilemez.",
+   "metin_en": "Article 17 provides that the procedures for the international health tourism authorisation of esenlik centres and units are to be determined by the Ministry. The Regulation on International Health Tourism (26/4/2025, Official Gazette 32882) requires an authorisation certificate, but its definition of health facility rests on holding a health facility licence, and whether the esenlik centre licence satisfies that condition is undetermined. Until the determination is made, a centre cannot know whether it is authorised to serve a visitor resident abroad."
+  },
+  {
+   "kod": "B02",
+   "dayanak": "17",
+   "tur": "metin_ici_tutarsizlik",
+   "etki": [
+    "turizm"
+   ],
+   "agirlik": 2,
+   "metin": "Madde başlığı uluslararası sağlık turizmi yetkisinden söz ederken fıkra metni yalnızca sağlık turizmi kapsamında demektedir. Yurt içi sağlık turizminin kapsama girip girmediği metinden anlaşılmamaktadır.",
+   "metin_en": "The article heading refers to international health tourism while the paragraph says only within the scope of health tourism. Whether domestic health tourism is covered cannot be determined from the text."
+  },
+  {
+   "kod": "B03",
+   "dayanak": "4/1-c",
+   "tur": "acik_uclu_liste",
+   "etki": [
+    "ruhsat",
+    "denetim"
+   ],
+   "agirlik": 3,
+   "metin": "Esenlik hizmeti tanımı yirmi dört hizmet türünü saydıktan sonra ile benzer nitelikteki hizmetleri ifadesiyle listeyi açık bırakmaktadır. Benzerliğin ölçütü verilmemiştir; bir hizmetin kapsama girip girmediği tartışmalı kalmaktadır.",
+   "metin_en": "After enumerating twenty-four service types the definition leaves the list open with the phrase and services of a similar nature. No criterion of similarity is given."
+  },
+  {
+   "kod": "B04",
+   "dayanak": "4/1-c",
+   "tur": "tanimsiz_kavram",
+   "etki": [
+    "isletme",
+    "denetim"
+   ],
+   "agirlik": 3,
+   "metin": "Esenlik hizmeti tedavi amacı taşımaksızın sunulan hizmet olarak tanımlanmıştır. Tedavi amacının nasıl belirleneceği, rehabilitasyon ve fizyoterapi gibi hizmetlerin hangi noktada tedaviye dönüştüğü belirtilmemiştir.",
+   "metin_en": "Wellness service is defined as provided without therapeutic purpose. How therapeutic purpose is determined, and at what point rehabilitation or physiotherapy becomes treatment, is not stated."
+  },
+  {
+   "kod": "B05",
+   "dayanak": "10/8-d",
+   "tur": "tanimsiz_kavram",
+   "etki": [
+    "isletme",
+    "denetim"
+   ],
+   "agirlik": 3,
+   "metin": "Nekahet dönemindeki hastaların hizmet alamayacağı düzenlenmiş ancak nekahet döneminin tanımı, süresi ve nasıl belgeleneceği verilmemiştir. Yaptırımı ağır olan bir yasak, ölçütü olmayan bir kavrama bağlanmıştır.",
+   "metin_en": "Patients in convalescence may not receive services, but the definition, duration and documentation of convalescence are not given. A prohibition with severe sanctions rests on a concept without criteria."
+  },
+  {
+   "kod": "B06",
+   "dayanak": "10/4",
+   "tur": "olcutsuz_takdir",
+   "etki": [
+    "ruhsat",
+    "denetim"
+   ],
+   "agirlik": 2,
+   "metin": "Hizmetin niteliğine uygun mekân sağlanacağı düzenlenmiştir. Uygunluğun ölçütü, metrekare ya da donanım karşılığı verilmemiştir; buna karşılık EK-4'ün beşinci sorusu bu şartı denetlemektedir.",
+   "metin_en": "Space appropriate to the nature of the service must be provided. No criterion, area or equipment requirement is given, yet Annex 4 question five inspects this condition."
+  },
+  {
+   "kod": "B07",
+   "dayanak": "10/2",
+   "tur": "olcutsuz_takdir",
+   "etki": [
+    "ruhsat",
+    "isletme"
+   ],
+   "agirlik": 2,
+   "metin": "Esenlik hizmetinin gerektirdiği tıbbi cihazların Bakanlık izniyle bulundurulabileceği belirtilmiştir. Hangi cihazların gerekli sayılacağı, izin başvurusunun usulü ve süresi düzenlenmemiştir.",
+   "metin_en": "Medical devices required by the service may be kept with Ministry permission. Which devices count as required, and the procedure and timing of the permission, are not regulated."
+  },
+  {
+   "kod": "B08",
+   "dayanak": "6/1",
+   "tur": "ikincil_duzenleme_yok",
+   "etki": [
+    "ruhsat"
+   ],
+   "agirlik": 2,
+   "metin": "Spor kulüpleri ile yaşlı ve engelli bakım merkezleri bünyesinde açılış, Gençlik ve Spor Bakanlığı ya da Aile ve Sosyal Hizmetler Bakanlığı iznine bağlanmıştır. Bu izinlerin ölçütü ve süreci Yönetmelikte yer almamaktadır.",
+   "metin_en": "Opening within sports clubs or care centres requires permission from another ministry. The criteria and process for these permissions do not appear in the regulation."
+  },
+  {
+   "kod": "B09",
+   "dayanak": "12/1",
+   "tur": "olcutsuz_takdir",
+   "etki": [
+    "isletme"
+   ],
+   "agirlik": 1,
+   "metin": "Tıbbi laboratuvar ve görüntüleme hizmetlerinin hizmet alımıyla karşılanabileceği düzenlenmiştir. Bunlar dışındaki hizmetlerin hizmet alımıyla karşılanıp karşılanamayacağı açık değildir.",
+   "metin_en": "Laboratory and imaging services may be procured externally. Whether other services may be procured in the same way is not clear."
+  },
+  {
+   "kod": "B10",
+   "dayanak": "18/2",
+   "tur": "olcutsuz_takdir",
+   "etki": [
+    "denetim"
+   ],
+   "agirlik": 2,
+   "metin": "Telafisi güç durumların ortaya çıkması hâlinde faaliyetin valilikçe durdurulacağı düzenlenmiştir. Bu durumların ölçütü verilmemiş, takdir tamamen idareye bırakılmıştır.",
+   "metin_en": "Where situations difficult to remedy arise, the governorship suspends operations. No criterion is given and the discretion rests entirely with the administration."
+  },
+  {
+   "kod": "B11",
+   "dayanak": "EK-4",
+   "tur": "metin_ici_tutarsizlik",
+   "etki": [
+    "denetim"
+   ],
+   "agirlik": 1,
+   "metin": "Denetim formunda yirmi iki numara ayrılmış olmasına karşın on iki numaralı soru bulunmamaktadır. Ayrıca Yönetmelik metni nekahet, formun üçüncü sorusu nekahat yazımını kullanmaktadır.",
+   "metin_en": "The inspection form reserves twenty-two numbers but question twelve is absent. The regulation spells the term one way and the third question of the form another."
+  },
+  {
+   "kod": "B12",
+   "dayanak": "EK-4",
+   "tur": "denetimde_karsiligi_yok",
+   "etki": [
+    "denetim",
+    "ruhsat"
+   ],
+   "agirlik": 3,
+   "metin": "Esenlik Hizmetleri Yönetmeliği'nin denetim formu EK-4'ün yirmi bir sorusundan hiçbiri Yönetmeliğin yapısal tanımlarını sorgulamamaktadır. Kapalı alan eşiği, oda sayısı, kurum izinleri ve uzman tabipler için öngörülen altmış yaş şartı ruhsat aşamasında aranmakta, işletme sırasında denetlenmemektedir.",
+   "metin_en": "None of the twenty-one questions inspects the structural definitions. Closed area, room count, institutional permits and the sixty-year condition for specialist physicians are sought at licensing but not inspected during operation."
+  },
+  {
+   "kod": "B13",
+   "dayanak": "EK-4",
+   "tur": "denetimde_karsiligi_yok",
+   "etki": [
+    "turizm",
+    "denetim"
+   ],
+   "agirlik": 3,
+   "metin": "Esenlik Hizmetleri Yönetmeliği'nin denetim formu olan EK-4'ün yirmi bir sorusundan hiçbiri sağlık turizmine ilişkin değildir. Yönetmelik 17 nci madde ile bir yetki konusu tanımlamakta, kendi denetim aracı o konuyu hiç sorgulamamaktadır.",
+   "metin_en": "None of the twenty-one questions in Annex 4, the inspection form of the Wellness Services Regulation, concerns health tourism. The regulation defines an authorisation matter in Article 17 while its own inspection instrument never asks about it."
+  },
+  {
+   "kod": "B14",
+   "dayanak": "16/1",
+   "tur": "ikincil_duzenleme_yok",
+   "etki": [
+    "isletme"
+   ],
+   "agirlik": 1,
+   "metin": "Tanıtım ve bilgilendirme, 33075 sayılı Yönetmeliğe atıfla düzenlenmiştir. Esenlik hizmetlerine özgü tanıtım sınırları belirlenmemiş, açık uçlu hizmet listesiyle birlikte kapsam belirsiz kalmıştır.",
+   "metin_en": "Promotion is regulated by reference to another regulation. No wellness-specific limits are set, and together with the open-ended service list the scope remains unclear."
+  }
+ ]
+}
